@@ -8,10 +8,7 @@ var config = require('./config');
 var request = require('request');
 var googleIms = require('google-ims');
 
-var ApiKey = 'AIzaSyD-cSPfAsEv8WE2xhHiUtU3Vf4Gnn1cb2g'; //key=API_KEY
-var CseId = '018245966068013457412:vl9o7pkslss'; //Cutom search engine id
-
-let client = googleIms(CseId, ApiKey);
+let client = googleIms(config.CseId, config.ApiKey);
 
 getAlpaca();
 

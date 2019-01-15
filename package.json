@@ -1,19 +1,19 @@
 {
   "name": "npm_demo",
   "version": "1.0.0",
-  "description": "This is demo for npm",
+  "description": "A Twitterbot concerning alpacas, built to get familiar with Node JS, NPM and Google and Titter's API's",
   "main": "twitbot.js",
   "scripts": {
-    "start": "node twitbot.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node twitbot.js"
   },
   "keywords": [
     "twitter",
     "bot",
-    "test"
+    "test",
+    "alpaca"
   ],
-  "author": "Alex",
-  "license": "ISC",
+  "author": "Alexander Lexis",
+  "license": "MIT",
   "dependencies": {
     "google-ims": "^1.1.4",
     "twit": "^2.2.11"
